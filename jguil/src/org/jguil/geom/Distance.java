@@ -8,4 +8,8 @@ public class Distance {
 		this.percentageValue = percentageValue;
 		this.pixelOffset = pixelOffset;
 	}
+
+	public double calculateSize(double parentSize) {
+		return ((percentageValue / 100d) * parentSize) + pixelOffset;
+	}
 }

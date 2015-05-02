@@ -1,8 +1,11 @@
 package org.jguil.geom;
 
-import org.jguil.layout.Unit;
-
 public class Distance {
-	public double value;
-	public Unit unit;
+	public final double percentageValue;
+	public final double pixelOffset;
+	
+	public Distance(double percentageValue, double pixelOffset) {
+		this.percentageValue = percentageValue;
+		this.pixelOffset = pixelOffset;
+	}
 }

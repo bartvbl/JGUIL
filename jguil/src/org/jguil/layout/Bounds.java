@@ -12,6 +12,7 @@ public class Bounds {
 	private Distance height;
 	
 	private SizeConfiguration verticalConfiguration;
+	private SizeConfiguration horizontalConfiguration;
 	
 	public Rectangle calculate(Rectangle parent) {
 		return new Rectangle(0, 0, 0, 0);
